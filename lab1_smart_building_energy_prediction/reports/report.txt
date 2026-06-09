@@ -1,0 +1,10 @@
+Energy consumption prediction report
+====================================
+
+Dataset size: (2400, 13)
+Best model: Linear Regression
+
+            model      MAE     RMSE       R2     MAPE
+Linear Regression 4.048901 5.131350 0.962690 4.494539
+Gradient Boosting 4.158510 5.236425 0.961147 4.671752
+    Random Forest 4.452681 5.484303 0.957381 5.043765
