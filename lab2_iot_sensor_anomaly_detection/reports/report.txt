@@ -1,0 +1,27 @@
+IoT sensor anomaly detection report
+===================================
+
+Dataset size: (820, 14)
+Anomaly share: 0.085
+Optimal number of KMeans clusters: 7
+Best anomaly model for saved prediction: Isolation Forest
+
+Silhouette scores:
+ k  silhouette_score
+ 2          0.311112
+ 3          0.330542
+ 4          0.348824
+ 5          0.364220
+ 6          0.374987
+ 7          0.379983
+
+Anomaly detection metrics:
+               model  accuracy  precision   recall  f1_score  roc_auc
+    Isolation Forest  0.990244   0.942857 0.942857  0.942857 0.998038
+Local Outlier Factor  0.990244   0.942857 0.942857  0.942857 0.998229
+       One-Class SVM  0.954878   0.732394 0.742857  0.737589 0.980152
+
+State classification metrics:
+        model  accuracy  f1_score
+Random Forest  0.984043  0.984293
+          KNN  0.946809  0.938258
